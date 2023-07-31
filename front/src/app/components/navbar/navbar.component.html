@@ -1,0 +1,58 @@
+<nav *ngIf="exclude" class="navbar navbar-expand-lg bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand me-3" routerLink="/dashboard/home"
+      ><i class="fs-4 fa-brands fa-shopify"></i
+    ></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a
+          class="nav-link fw-bold"
+          routerLink="/dashboard/home"
+          routerLinkActive="active"
+        >
+          <i class="fa-solid fa-chart-line me-1"></i>
+          Dashboard</a
+        >
+        <a
+          class="nav-link fw-bold"
+          routerLink="/dashboard/perfil"
+          routerLinkActive="active"
+        >
+          <i class="fa-solid fa-user me-1"></i>Perfil</a
+        >
+        <a
+          class="nav-link fw-bold"
+          routerLink="/dashboard/productos"
+          routerLinkActive="active"
+        >
+          <i class="fa-solid fa-table me-1"></i>Productos</a
+        >
+        <a
+          class="nav-link fw-bold"
+          routerLink="/dashboard/clientes"
+          routerLinkActive="active"
+        >
+          <i class="fa-solid fa-users me-1"></i>Clientes</a
+        >
+        <a
+          class="nav-link fw-bold"
+          routerLink="/dashboard/ordenes"
+          routerLinkActive="active"
+        >
+          <i class="fa-solid fa-cart-shopping me-1"></i>Ordenes</a
+        >
+      </div>
+    </div>
+  </div>
+</nav>

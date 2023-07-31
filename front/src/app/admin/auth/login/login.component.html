@@ -1,0 +1,51 @@
+<div class="container-fluid h-100">
+  <div class="row justify-content-center h-100 gap-5">
+    <div class="col-12 align-self-end text-center">
+      <h1>Bienvenido</h1>
+    </div>
+    <div class="align-self-start col-11 col-md-8 col-lg-5 col-xl-4 col-xxl-3">
+      <div class="row gap-2 p-3 shadow bg-white">
+        <div class="col-12 text-center">
+          <i class="fa-solid fa-user display-1" style="color: #000000"></i>
+        </div>
+        <div class="col-12">
+          <form class="d-flex flex-column gap-3">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Login</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-12">
+          <a class="text-decoration-none me-3" routerLink="/dashboard/register"
+            >Registrarse</a
+          >
+          <a class="text-decoration-none" routerLink="/dashboard/reset"
+            >Cambiar Contraseña</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

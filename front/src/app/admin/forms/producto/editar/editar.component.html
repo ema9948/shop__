@@ -1,0 +1,80 @@
+<div class="container-fluid min-vh-100 mb-5 animated fast fadeIn">
+  <div class="row h-100 justify-content-center gap-3">
+    <div class="col-12 mt-3 d-flex justify-content-end align-items-baseline">
+      <a
+        routerLink="../.."
+        routerLinkActive="router-link-active"
+        class="btn btn-danger"
+      >
+        <i class="fa-solid fa-arrow-left"></i>
+      </a>
+    </div>
+    <div class="col-11 col-md-5 col-xxl-3 align-self-baseline h-75">
+      <div class="row shadow bg-white gap-4 p-3">
+        <div class="col-12 text-center">
+          <h3 class="fw-bold">Editar Producto</h3>
+        </div>
+        <div class="col-12">
+          <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Categoria</label
+              >
+              <input type="text" class="form-control" placeholder="Categoria" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Nombre</label
+              >
+              <input type="text" class="form-control" placeholder="Nombre" />
+            </div>
+            <div class="mb-3">
+              <label
+                for="exampleFormControlTextarea1"
+                class="form-label fw-medium"
+                >Descripcion</label
+              >
+              <textarea
+                class="form-control"
+                placeholder="Descripcion"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Color</label
+              >
+              <input type="text" class="form-control" placeholder="Color" />
+            </div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Imagen</label>
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Talle</label
+              >
+              <input type="text" class="form-control" placeholder="Talle" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Stock</label
+              >
+              <input type="number" class="form-control" placeholder="Stock" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label fw-medium"
+                >Precio</label
+              >
+              <input type="number" class="form-control" placeholder="Precio" />
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
